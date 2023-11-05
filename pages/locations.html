@@ -1,16 +1,143 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="description" content="Website for Hiking"/> <!-- Meta Information-->
-
-	<meta name="robots" content="nofollow"/>
-
-	<meta http-equiv="Author" content=""/>
-
-	<meta http-equiv="pragma" content="no-cache"/>
-	<title>Hiking Website!</title>
+    <meta name="description" content="Website for Hiking"/> <!-- Meta Information-->
+    <meta name="robots" content="nofollow"/>
+    <meta http-equiv="Author" content=""/>
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="../styles/application.css">
+    <title>Hiking Website!</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .hiking-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            width: calc(33.33% - 20px); /* Adjust the column width as needed */
+            margin-right: 20px; /* Adjust the margin as needed */
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-<h1>Where We Hike!:</h1>
+    <div class="background"></div>
+    <div class "foreground">
+        <div class="navbar">
+            <img src="../assets/logo.png" class="logo" title="Travelers R US">
+            <ul>
+                <li><a href="application.html">Apply Here</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <h1>Where We Hike:</h1>
+        <ul class="hiking-list">
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 1">
+                    </div>
+                    <a href="https://www.landtrustnal.org/properties/rainbow-mountain-preserve">Rainbow Mountain Nature Preserve</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 2">
+                    </div>
+                    <a href="https://www.hikingtheappalachians.com/trail-reports/cheaha-wilderness-chinnabee-silent-trail-oxford-alabama">Cheaha Wilderness: Chinnabee Silent Trail</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class "hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 3">
+                    </div>
+                    <a href="https://www.alapark.com/parks/bucks-pocket-state-park">Buck's Pocket State Park</a>
+                </li>
+            </div>
+            <!-- Continue the structure for the remaining items -->
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 4">
+                    </div>
+                    <a href="https://www.alapark.com/parks/oak-mountain-state-park">Oak Mountain State Park</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 5">
+                    </div>
+                    <a href="https://redmountainpark.org/">Red Mountain Park</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 6">
+                    </div>
+                    <a href="https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/keel-mountain-preserve">Keel Mountain Preserve</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 7">
+                    </div>
+                    <a href="https://www.alapark.com/parks/monte-sano-state-park">Monte Sano State Park</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 8">
+                    </div>
+                    <a href="https://www.alapark.com/parks/rickwood-caverns-state-park">Rickwood Caverns State Park</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 9">
+                    </div>
+                    <a href="https://www.alapark.com/parks/chewacla-state-park">Chewacla State Park</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 10">
+                    </div>
+                    <a href="https://www.madisoncountyal.gov/services/green-mountain-nature-trail-1594">Green Mountain Nature Trail</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 11">
+                    </div>
+                    <a href="https://www.tannehillstatepark.org/">Tannehill IronWorks</a>
+                </li>
+            </div>
+            <div class="column">
+                <li>
+                    <div class="hiking-location">
+                        <img src="../assets/logo.png" alt="Hiking Location 12">
+                    </div>
+                    <a href="https://www.blakeleypark.com/">Historic Blakeley State Park</a>
+                </li>
+            </div>
+        </ul>
+    </div>
 </body>
 </html>
