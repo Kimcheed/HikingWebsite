@@ -2,7 +2,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-repeat: no-repeat;
   background-size: cover;
-  background: url('HikingTrail1.webp');
+  background: url(../assets/HikingTrail1.webp);
   background-size: 1150px;
   image-resolution: from-image 300dpi;
   image-rendering: -webkit-optimize-contrast;
@@ -145,12 +145,13 @@ body {
 
 .center h1 {
   text-align: center;
-  padding: 0 0 20px 0;
+  padding-top: 25px;
   border-bottom: 1px solid silver;
 }
 
 .center form {
   padding:  40px;
+  padding-top: 25px;
   box-sizing: border-box;
 }
 
