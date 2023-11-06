@@ -150,6 +150,7 @@ body {
 }
 
 .center form {
+  top: 30px;
   padding-top: 25px;
   box-sizing: border-box;
 }
