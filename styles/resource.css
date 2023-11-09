@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-/*Inheritance example*/
+
 body {
   color: #f7f7f7;
   font-size: 16px;
@@ -84,7 +84,7 @@ li:last-child {
 }
 
 .main-header {
-  background-color: #f7f7f7a1;
+  background-color: #1098ad64;
   /* padding example */
 
   padding: 20px 40px;
