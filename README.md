@@ -17,7 +17,7 @@ Resources: This page shows resources Hikers can use to progress in Hiking.
 
 Contact: This page will allow the Hiker to send information to contact further with the email response in the application email.
 
-This project is a collaboration with the following people:
+#This project is a collaboration with the following people:
 
 Kolten Donovan
 
