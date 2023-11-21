@@ -146,14 +146,53 @@ nav a:link {
   margin-bottom: 10px;
   display: inline-block;
 }
+
+/* establishing aside classes for frames
 aside {
   background-color: #1098ad64;
   border-top: 5px solid #05191c;
   border-bottom: 5px solid #061c20;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
+  
   padding: 50px 0;
   width: 500px;
+}
+*/
+
+.intro-frame {
+  background-color: #1098adaa;
+  background-size: cover;
+  background-position: center;
+  border-top: 5px solid #05191c;
+  border-bottom: 5px solid #05191c;
+  margin: 10px;
+  padding: 50px 15px;
+  width: 1000px;
+}
+
+.intro-par {
+  font-size: 25px;
+  font-style: italic;
+  text-transform: none;
+
+  text-align: center;
+}
+
+.main-pic-frame {
+  margin: 10px;
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
+  background-color: rgba(23, 19, 19, 0.44);
+  border: 5px solid;
+  border-radius: 2rem;
+}
+
+.creek-bed {
+  position: center;
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 article {
@@ -167,7 +206,9 @@ body {
 .post-img {
   width: 100%;
   height: auto;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: center;
 }
 
 nav a:link {
@@ -207,9 +248,11 @@ h2 {
   margin: -20px;
 }
 
+/*
 .foreground {
   position: absolute;
   width: 100%;
   height: 100vh;
   display: block;
 }
+*/
