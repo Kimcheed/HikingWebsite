@@ -211,9 +211,10 @@ aside {
 
 .intro-pic {
   position: center;
-  width: 100%;
+  width: 85%;
   height: 700px;
   margin-top: 50px;
+  margin-left: 5rem;
   padding: 20px;
   margin-bottom: 50px;
 }
