@@ -3,11 +3,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 body {
-  color: #f7f7f7;
+  color: #061c20;
   font-size: 16px;
   font-family: sans-serif;
 
@@ -24,25 +26,28 @@ h3 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 85px;
 
   text-transform: uppercase;
   text-align: center;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 30px;
+  text-align: center;
 }
 h3 {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
   margin-bottom: 20px;
   margin-top: 40px;
 }
 
 h4 {
   font-size: 20px;
-
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }
@@ -52,11 +57,12 @@ p {
 
   line-height: 1.5;
   margin-bottom: 15px;
+  margin-right: 80px;
 }
 
 ul,
 ol {
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 li {
@@ -67,16 +73,17 @@ li {
 }
 
 li:last-child {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .container {
-  width: 800px;
+  width: 900px;
 
   margin: 0 auto;
-  position: relative;
+  position: center;
 }
 
+/*will replace once final pictures are added*/
 .logo {
   position: relative;
   margin: 0 auto;
@@ -84,23 +91,60 @@ li:last-child {
 }
 
 .main-header {
-  background-color: #1098ad64;
+  background-image: url(../assets/background.jpg);
   /* padding example */
-
-  padding: 20px 40px;
-  margin-bottom: 60px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: center;
+  padding: 30px 50px;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-nav {
-  font-size: 18px;
-  text-align: center;
-}
 .post-header {
   margin-bottom: 20px;
 }
 
-article {
-  margin-bottom: 60px;
+.nav-link {
+  font-size: 2rem;
+  color: #1098ad;
+  width: 15rem;
+  font-style: bold;
+  border-radius: 2rem;
+  margin: 0 3rem;
+  text-transform: uppercase;
+  border: 0.1rem solid whitesmoke;
+
+  text-align: center;
+  padding: 0.2rem 0;
+  letter-spacing: 0.1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 5rem;
+  background-color: #1098ad64;
+  left: -20%;
+  transform: rotate(-40deg) translate(-4rem);
+  transform-origin: left bottom;
+  opacity: 0.8;
+  transition: left 0.3s;
+}
+/***** Styling Hyperlinks *****/
+.nav-link:hover::before {
+  left: 110%;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 aside {
   background-color: #1098ad64;
@@ -112,31 +156,12 @@ aside {
   width: 500px;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 body {
   background-color: #f7f7f7;
-}
-
-/***** Styling Hyperlinks *****/
-
-/* 1. Styling links*/
-a:link {
-  color: #061c20;
-  text-decoration: none;
-}
-/* 2. Changing color of visited links*/
-a:visited {
-  color: whitesmoke;
-}
-/* 3. change color of hovered link*/
-a:hover {
-  color: #1098ad64;
-  font-weight: bold;
-  text-decoration: underline #061c20;
-}
-/* 4. Active Links*/
-a:active {
-  background-color: black;
-  font-style: italic;
 }
 
 .post-img {
