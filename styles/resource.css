@@ -202,7 +202,7 @@ aside {
 
 .main-pic-frame {
   margin: 10px;
-  background-image: url(../assets/creek.JPG);
+  background-image: url(../assets/background.jpg);
   background-size: cover;
   background-color: rgba(23, 19, 19, 0.44);
   border: 5px solid;
@@ -259,7 +259,7 @@ h2 {
   position: fixed;
   width: 110%;
   height: 110%;
-  background-image: url(../assets/background.jpg);
+  background-image: url(../assets/creek.JPG);
   background-size: cover;
   background-position: center;
   display: block;
