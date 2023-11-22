@@ -230,6 +230,26 @@ aside {
   padding: 20px;
   margin-bottom: 50px;
 }
+
+.hiking-gear-pics {
+  margin: 15px;
+  border: 3px solid #061c20;
+  border-radius: 2rem;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  width: 175px;
+  height: 200px;
+}
+
+.hiking-gear-pic {
+  margin: 15px;
+  border: 3px solid #061c20;
+  border-radius: 2rem;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  width: 175px;
+  height: 200px;
+}
 /*will replace once final pictures are added*/
 .logo {
   position: relative;
