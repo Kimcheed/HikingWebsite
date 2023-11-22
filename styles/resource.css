@@ -147,7 +147,7 @@ li:last-child {
   position: absolute;
   width: 150%;
   height: 5rem;
-  background-color: #1098ad64;
+  background-color: #f7f7f764;
   left: -20%;
   transform: rotate(-40deg) translate(-4rem);
   transform-origin: left bottom;
