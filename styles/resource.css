@@ -36,6 +36,7 @@ h2 {
   font-size: 50px;
   margin-bottom: 30px;
   text-align: center;
+  position: relative;
 }
 h3 {
   font-size: 40px;
@@ -76,20 +77,16 @@ li:last-child {
   margin-bottom: 5px;
 }
 
+/*******************Container will update as I proceed****************/
 .container {
   width: 900px;
 
   margin: 0 auto;
   position: center;
 }
+/********************************************************************/
 
-/*will replace once final pictures are added*/
-.logo {
-  position: relative;
-  margin: 0 auto;
-  width: 250px;
-}
-
+/*********************************Headers***************************/
 .main-header {
   background-image: url(../assets/background.jpg);
   /* padding example */
@@ -105,8 +102,9 @@ li:last-child {
 .post-header {
   margin-bottom: 20px;
 }
+/*******************************Headers End**************************/
 
-/*nav bar, nav links*/
+/*********************navbar, navlist, and navlinks*****************/
 .navbar {
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -160,6 +158,9 @@ li:last-child {
 .nav-link:hover::before {
   left: 110%;
 }
+.nav-link:visited {
+  color: orangered;
+}
 
 nav a:link {
   margin-right: 30px;
@@ -168,7 +169,10 @@ nav a:link {
   display: inline-block;
 }
 
-/*end of nav link edit*/
+nav a:link:last-child {
+  margin-right: 0;
+}
+/***********************************end of navis*************************/
 
 /* establishing aside classes for frames
 aside {
@@ -181,6 +185,7 @@ aside {
 }
 */
 
+/******************************Frames**********************************/
 .intro-frame {
   background-color: #1098adaa;
   background-size: cover;
@@ -192,14 +197,6 @@ aside {
   width: 1000px;
 }
 
-.intro-par {
-  font-size: 25px;
-  font-style: italic;
-  text-transform: none;
-
-  text-align: center;
-}
-
 .main-pic-frame {
   margin: 10px;
   background-image: url(../assets/background.jpg);
@@ -208,7 +205,24 @@ aside {
   border: 5px solid;
   border-radius: 2rem;
 }
-
+.equipment-pic-frame {
+  margin-right: 150px;
+  background-color: rgba(23, 19, 19, 0.44);
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
+  border: 5px solid #05191c;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+}
+.entry-lvl-frame {
+  background-color: #f7f7f764;
+  border-top: 5px solid #05191c;
+  border-bottom: 5px solid #05191c;
+  margin: 10px;
+  padding: 50px 15px;
+  width: 1000px;
+}
+/**************************Pictures***************************/
 .intro-pic {
   position: center;
   width: 85%;
@@ -218,6 +232,49 @@ aside {
   padding: 20px;
   margin-bottom: 50px;
 }
+/*will replace once final pictures are added*/
+.logo {
+  position: relative;
+  margin: 0 auto;
+  width: 250px;
+}
+
+/**************************Paragraphs*************************/
+.intro-par {
+  font-size: 25px;
+  font-style: italic;
+  text-transform: none;
+
+  text-align: center;
+}
+.main-topic-par {
+  font-size: 20px;
+  font-style: oblique;
+  text-align: left;
+}
+.link-par {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+/************************Paragraph Class End*******************/
+
+/***********************Outline Topics**************************/
+.outline-main-topic {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.outline-subtopic {
+  text-align: left;
+}
+/******under construction 11.22.23***/
+.outline-entrylvl-topic {
+  text-align: left;
+  text-decoration: underline;
+}
+/**********************Outline End*********************/
 
 article {
   margin-bottom: 60px;
@@ -235,26 +292,7 @@ body {
   position: center;
 }
 
-nav a:link {
-  margin-right: 30px;
-  margin-top: 10px;
-  display: inline-block;
-}
-
-nav a:link:last-child {
-  margin-right: 0;
-}
-
-h1::first-letter {
-  font-style: normal;
-  margin-right: 5px;
-}
-
-h2 {
-  /* background-color: orange; */
-  position: relative;
-}
-
+/**************************Background ***********************/
 .background {
   z-index: -1;
   position: fixed;
@@ -271,6 +309,19 @@ h2 {
   bottom: 0;
   margin: -20px;
 }
+/***********************Background End***********************/
+
+/*******************???????????????????**********/
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/*
+h2 {
+  /* background-color: orange; 
+  position: relative;
+}*/
 
 /*
 .foreground {
