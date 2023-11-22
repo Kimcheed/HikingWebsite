@@ -158,9 +158,7 @@ li:last-child {
 .nav-link:hover::before {
   left: 110%;
 }
-.nav-link:visited {
-  color: orangered;
-}
+/********edit navlink visited******/
 
 nav a:link {
   margin-right: 30px;
