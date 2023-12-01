@@ -79,9 +79,9 @@ li:last-child {
 
 /*******************Container will update as I proceed****************/
 .container {
-  width: 900px;
+  width: 1000px;
 
-  margin: 0 auto;
+  margin: 0.3rem auto;
   position: center;
 }
 /********************************************************************/
@@ -100,43 +100,47 @@ li:last-child {
 }
 
 .post-header {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 /*******************************Headers End**************************/
 
 /*********************navbar, navlist, and navlinks*****************/
 .navbar {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   margin-top: 3rem;
-  margin-left: 20rem;
+  margin-left: 30rem;
   z-index: 10;
-  width: 0.3rem;
+  width: 3rem;
   display: flex;
+  word-spacing: 0.5rem;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
 }
 
 .nav-list {
   display: flex;
-  position: center;
+  /* position: center;*/
+  margin: 10px;
+  width: 1200px;
   justify-content: center;
-  margin-left: 20rem;
+  background-size: cover;
+  background-position: center;
   background-color: #05191c;
-  padding: 1.5rem;
+  padding: 20px 15px;
 }
 
 .nav-link {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #1098ad;
-  width: 15rem;
+  width: 35rem;
   font-style: bold;
   border-radius: 2rem;
-  margin: 0 3rem;
+  margin: 1rem 1rem;
   text-transform: uppercase;
   border: 0.1rem solid whitesmoke;
 
   text-align: center;
-  padding: 0.2rem 0;
+  padding: 0.5rem 0;
   letter-spacing: 0.1rem;
   position: relative;
   overflow: hidden;
@@ -145,8 +149,8 @@ li:last-child {
 .nav-link::before {
   content: "";
   position: absolute;
-  width: 150%;
-  height: 5rem;
+  width: 100%;
+  height: 2rem;
   background-color: #f7f7f764;
   left: -20%;
   transform: rotate(-40deg) translate(-4rem);
