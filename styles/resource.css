@@ -6,6 +6,7 @@
   box-sizing: border-box;
   outline: none;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
   border-top: 10px solid#f7f7f7a1;
 
-  position: relative;
+  position: center;
 }
 
 /* Smaller Element */
@@ -68,13 +69,13 @@ ol {
 
 li {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 22px;
 
   margin-bottom: 15px;
 }
 
 li:last-child {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 /*******************Container will update as I proceed****************/
@@ -194,6 +195,7 @@ aside {
   background-position: center;
   border-top: 5px solid #05191c;
   border-bottom: 5px solid #05191c;
+  overflow: hidden;
   margin: 10px;
   padding: 50px 15px;
   width: 1000px;
@@ -209,6 +211,7 @@ aside {
 }
 .equipment-pic-frame {
   margin-right: 150px;
+  margin-left: 7rem;
   background-color: rgba(23, 19, 19, 0.44);
   background-image: url(../assets/background.jpg);
   background-size: cover;
@@ -224,7 +227,22 @@ aside {
   padding: 50px 15px;
   width: 1000px;
 }
+
+.equipment-stick-frame {
+  margin-right: 150px;
+  margin-left: 7rem;
+  position: relative;
+  background-color: rgba(23, 19, 19, 0.44);
+  background-image: url(assets/background.jpg);
+  /* background-size: cover;*/
+  border: 5px solid #05191c;
+  overflow: hidden;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 /**************************Pictures***************************/
+/***to be continued 12.01*/
 .intro-pic {
   position: center;
   width: 85%;
@@ -273,13 +291,14 @@ aside {
 .main-topic-par {
   font-size: 20px;
   font-style: oblique;
-  text-align: left;
+  margin-left: 5rem;
 }
 .link-par {
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
-  text-align: left;
+  margin-left: 8rem;
+  color: orange;
 }
 /************************Paragraph Class End*******************/
 
@@ -287,6 +306,8 @@ aside {
 .outline-main-topic {
   text-align: left;
   text-decoration: underline;
+  margin-top: 3rem;
+  margin-left: 5rem;
 }
 
 .outline-subtopic {
@@ -297,7 +318,16 @@ aside {
   text-align: left;
   text-decoration: underline;
 }
+.resource {
+  color: #f7f7f7a1;
+}
 /**********************Outline End*********************/
+
+/*******************outline lists*********************/
+.outline-main-list {
+  margin-left: 8rem;
+}
+/**********************end*****************************/
 
 article {
   margin-bottom: 60px;
