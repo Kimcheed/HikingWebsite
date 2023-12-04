@@ -68,26 +68,38 @@
 
 .header{
 	text-align: center;
+	margin: 5%;
 }
 
 .formbox{
 	margin: auto;
-	padding-top: 1rem;
+	padding-top: 2rem;
 	width: 25%;
 	height: 50%;
 	text-align: center;
+	vertical-align: middle;
 	background-color: rgba(210, 210, 210, 0.5);
 }
 
 input[type=text]{
 	width: 80%;
 	padding: 0.4rem 0.2rem;
-	background: #1a1a1a;
-	color: #d2d2d2;
+	background: #1a1a1a;	
+	color: #fefefe;
 	font-size: 1.5rem;
-	border: 2px solid black;
+	border: 0px;
+	border-bottom: 4px solid #404040;
 	border-radius: 4px;
 	margin-bottom: 1rem;
+}
+
+input[type=submit]{
+	width: 80%;
+	padding: 0.4rem 0.2rem;
+	border: 0px;
+	border-radius: 4px;
+	background: #1a1a1a;
+	color: #fefefe;
 }
 
 label{
