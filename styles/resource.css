@@ -232,6 +232,8 @@ aside {
   background-color: rgba(23, 19, 19, 0.44);
   border: 5px solid;
   border-radius: 2rem;
+  /**Adjustment 12.03.2023*/
+  overflow: hidden;
 }
 .equipment-pic-frame {
   margin-right: 150px;
