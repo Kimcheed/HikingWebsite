@@ -466,17 +466,14 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-/*
-h2 {
-  /* background-color: orange; 
-  position: relative;
-}*/
+/*Line hr*/
+.line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 85%;
+  margin-left: 5rem;
+  height: 0.5rem;
 
-/*
-.foreground {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  display: block;
+  text-shadow: #061c20;
+  background-color: #05191c;
 }
-*/
