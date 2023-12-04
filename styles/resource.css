@@ -192,6 +192,17 @@ aside {
 }
 */
 
+/********************************Types of Hiking ***********************/
+.hike-type{
+  width: 85%;
+  background-color: #f7f7f7a1;
+  text-align: center;
+  margin-left:5rem;
+  margin-bottom: 1rem;
+}
+
+
+
 /******************************Frames**********************************/
 .intro-frame {
   background-color: #1098adaa;
