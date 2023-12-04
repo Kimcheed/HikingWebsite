@@ -201,6 +201,15 @@ aside {
   margin-bottom: 1rem;
 }
 
+.intro-info{
+  margin-top:2rem;
+  margin-bottom: 1rem;
+  font-size: 30px;
+  text-align: center;
+  font-style: normal;
+  color: orange;
+}
+
 
 
 /******************************Frames**********************************/
