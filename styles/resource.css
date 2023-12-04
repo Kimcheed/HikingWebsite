@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 
@@ -58,8 +58,9 @@ p {
   font-size: 22px;
 
   line-height: 1.5;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   margin-right: 80px;
+  margin-left: 80px;
 }
 
 ul,
@@ -95,9 +96,10 @@ li:last-child {
   background-position: center;
   display: flex;
   position: center;
-  padding: 30px 50px;
-  margin-top: 3rem;
-  margin-bottom: 0.5rem;
+  padding: 10px 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1.5rem;
 }
 
 .post-header {
@@ -108,7 +110,7 @@ li:last-child {
 /*********************navbar, navlist, and navlinks*****************/
 .navbar {
   margin-bottom: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 0;
   margin-left: 30rem;
   z-index: 10;
   width: 3rem;
@@ -122,20 +124,22 @@ li:last-child {
   display: flex;
   /* position: center;*/
   margin: 10px;
-  width: 1200px;
-  justify-content: center;
+  width: 1000px;
+  margin-left: -15.75px;
+  /*justify-content: center;*/
   background-size: cover;
   background-position: center;
-  background-color: #05191c;
-  padding: 20px 15px;
+  background-color: #061c20;
+  padding: 2px 15px;
+  margin-bottom: -.5rem;
 }
 
 .nav-link {
   font-size: 1rem;
-  color: #1098ad;
+  color: #f7f7f7e8;
   width: 35rem;
   font-style: bold;
-  border-radius: 2rem;
+  border-radius: 5rem;
   margin: 1rem 1rem;
   text-transform: uppercase;
   border: 0.1rem solid whitesmoke;
