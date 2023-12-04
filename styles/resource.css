@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ li:last-child {
   background-position: center;
   background-color: #061c20;
   padding: 2px 15px;
-  margin-bottom: -.5rem;
+  margin-bottom: -0.5rem;
 }
 
 .nav-link {
@@ -193,24 +193,22 @@ aside {
 */
 
 /********************************Types of Hiking ***********************/
-.hike-type{
+.hike-type {
   width: 85%;
   background-color: #f7f7f7a1;
   text-align: center;
-  margin-left:5rem;
+  margin-left: 5rem;
   margin-bottom: 1rem;
 }
 
-.intro-info{
-  margin-top:2rem;
+.intro-info {
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 30px;
   text-align: center;
   font-style: normal;
   color: orange;
 }
-
-
 
 /******************************Frames**********************************/
 .intro-frame {
@@ -321,7 +319,7 @@ aside {
   display: flex;
   animation: slide 12s infinite;
 }
-@keyframes slide{
+@keyframes slide {
   0% {
     transform: translateX(0);
   }
@@ -347,11 +345,6 @@ aside {
     transform: translateX(-300%);
   }
 }
-
-
-
-
-
 
 /******used for multiple pics* may not use 12.03***/
 .hiking-gear-pics {
@@ -404,10 +397,11 @@ aside {
 
 /***********************Outline Topics**************************/
 .outline-main-topic {
-  text-align: left;
+  text-align: center;
   text-decoration: underline;
+  color: orange;
   margin-top: 3rem;
-  margin-left: 5rem;
+  /*margin-left: 5rem;*/
 }
 
 .outline-subtopic {
