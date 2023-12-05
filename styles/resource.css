@@ -400,7 +400,7 @@ aside {
   font-style: italic;
   font-weight: bold;
   margin-left: 8rem;
-  color: #061c20;
+  color: #f7f7f7a1;
 }
 /************************Paragraph Class End*******************/
 
@@ -484,4 +484,12 @@ h1::first-letter {
 
   text-shadow: #061c20;
   background-color: #05191c;
+}
+
+.sub-line {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  margin-left: 5.5rem;
+  height: 0.25rem;
 }
