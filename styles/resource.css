@@ -129,20 +129,20 @@ li:last-child {
   /*justify-content: center;*/
   background-size: cover;
   background-position: center;
-  background-color: #061c20;
+  background-color: #061c204a;
   padding: 2px 15px;
   margin-bottom: -0.5rem;
 }
 
 .nav-link {
   font-size: 1rem;
-  color: #f7f7f7e8;
+  color: orange;
   width: 35rem;
   font-style: bold;
   border-radius: 5rem;
   margin: 1rem 1rem;
   text-transform: uppercase;
-  border: 0.1rem solid whitesmoke;
+  border: 0.2rem solid #05191c;
 
   text-align: center;
   padding: 0.5rem 0;
@@ -423,6 +423,13 @@ aside {
 }
 .resource {
   color: #f7f7f7a1;
+}
+.hike-topic {
+  margin-left: -5px;
+  color: whitesmoke;
+  text-decoration: underline;
+  margin-bottom: 2px;
+  font-style: oblique;
 }
 /**********************Outline End*********************/
 
