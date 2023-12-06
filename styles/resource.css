@@ -314,6 +314,33 @@ aside {
   margin-bottom: 50px;
 }
 
+/********************hover animation******************/
+.img-area {
+  width: 500px;
+  margin: 15px;
+}
+
+.hover-animation {
+  position: center;
+  height: 500px;
+  width: 500px;
+  margin: 10% auto 0;
+}
+
+.hover-animation img {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  margin-left: 5rem;
+  padding: 10px;
+  transition: opacity 1s ease-in-out;
+}
+.hover-animation img.img-front:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+/*****************************************************/
+
 /*****************Intro Slide show animation**********/
 .slider-images {
   position: relative;
