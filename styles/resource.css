@@ -245,7 +245,7 @@ aside {
   margin-top: 3rem;
 }
 .entry-lvl-frame {
-  background-color: #f7f7f764;
+  background-color: rgba(245, 222, 179, 0.801);
   border-top: 5px solid #05191c;
   border-bottom: 5px solid #05191c;
   margin: 10px;
@@ -422,7 +422,7 @@ aside {
   text-decoration: underline;
 }
 .resource {
-  color: #f7f7f7a1;
+  color: rgba(245, 222, 179, 0.801);
 }
 .hike-topic {
   margin-left: -5px;
