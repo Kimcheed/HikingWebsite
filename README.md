@@ -27,8 +27,6 @@ This page will allow the Hiker to send information to contact further with the e
 Kolten Donovan
 
 Zachary Shamp
-	
-Dylan Jones
 
 Morgan McKenzie
 
